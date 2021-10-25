@@ -9,6 +9,7 @@ $(document).ready(function() {
     items.push($("input#item4").val());
     items.push($("input#item5").val());
     items.sort();
+    
     items.forEach(function(item) {
       upperCaseItems.push(item.toUpperCase());
     });
